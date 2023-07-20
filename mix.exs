@@ -29,7 +29,7 @@ defmodule Xattr.Mixfile do
 
   defp deps do
     [
-      {:rustler, "~> 0.22-rc", runtime: false},
+      {:rustler, "~> 0.22.2", runtime: false},
 
       # Development dependencies
       {:credo, "~> 0.8", only: [:dev, :test], runtime: false},
